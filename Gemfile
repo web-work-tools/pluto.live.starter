@@ -14,10 +14,6 @@ group :production do
   gem 'pg'                # note: pg is PostgreSQL
 end
 
-group :development do
-  gem 'sqlite3'
-end
-
 ##############
 # web server - use faster multiplexed (w/ eventmachine) web server 
 gem 'thin'
