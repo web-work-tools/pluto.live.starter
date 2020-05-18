@@ -68,8 +68,15 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 3.2.19)
+  bundler (~> 1.13.0)
   pg
   pluto
   pluto-admin
   sinatra
   thin
+
+RUBY VERSION
+   ruby 2.1.1p76
+
+BUNDLED WITH
+   1.13.0
