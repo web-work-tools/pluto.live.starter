@@ -68,7 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 3.2.19)
-  bundler (~> 1.13.0)
+  bundler (= 1.13.0)
   pg
   pluto
   pluto-admin

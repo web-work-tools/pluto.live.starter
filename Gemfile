@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.1.1'
 
+gem 'bundler', '=1.13.0'
+
 ###########
 # web library/framework
 gem 'sinatra'
