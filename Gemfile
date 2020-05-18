@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+ruby '2.1.1'
+
+gem bundler '1.7.0'
+
 
 ###########
 # web library/framework
@@ -10,9 +14,8 @@ gem 'sinatra'
 
 gem 'activerecord', '=3.2.19' ## use 3.2.x series for now (still runs w/ Ruby 1.9.2)
 
-group :production do
-  gem 'pg'                # note: pg is PostgreSQL
-end
+gem 'pg'                # note: pg is PostgreSQL
+
 
 ##############
 # web server - use faster multiplexed (w/ eventmachine) web server 
